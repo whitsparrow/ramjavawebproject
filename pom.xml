@@ -64,4 +64,16 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+      <snapshotRepository>
+        <id>nexus</id>
+        <name>devops</name>
+	<url>http://localhost:8081/repository/anil/</url>
+      </snapshotRepository>
+      <repository>
+        <id>nexus</id>
+        <name>devops</name>
+	<url>http://localhost:8081/repository/anil/</url>
+      </repository>	
+   </distributionManagement>
 </project>
