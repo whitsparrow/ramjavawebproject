@@ -68,12 +68,12 @@
       <snapshotRepository>
         <id>nexus</id>
         <name>devops</name>
-	<url>http://localhost:8081/repository/anil/</url>
+	<url>http://13.232.5.105:8081/repository/novbatch/</url>
       </snapshotRepository>
       <repository>
         <id>nexus</id>
         <name>devops</name>
-	<url>http://localhost:8081/repository/anil/</url>
+	<url>http://13.232.5.105:8081/repository/novbatch/</url>
       </repository>	
    </distributionManagement>
 </project>
