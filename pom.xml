@@ -64,4 +64,16 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <snapshotRepository>
+        <id>nexus</id>
+        <name>shiva</name>
+        <url>http://localhost:8081/repository/TATAPROJECT/</url>
+    </snapshotRepository>
+    <repository>
+        <id>nexus</id>
+        <name>shiva</name>
+        <url>http://localhost:8081/repository/TATAPROJECT/</url>
+    </repository>
+</distributionManagement> 
 </project>
